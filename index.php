@@ -47,6 +47,9 @@ if (empty($_GET['page'])) {
             require "views/tours.view.php";
             break;
         case "login":
+            require "views/login.view.php";
+            break;
+        case "checklogin":
             $tourscontrolller->checklogin();
             break;
         default:

@@ -7,7 +7,7 @@
     <title>Travigo - Travel for everyone</title>
     <link rel="icon" href="./img/world.png" />
     <meta name="description" content="Explore our trips and live The Good Life with Travigo our Tours that make you fall in love with the world." />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
@@ -57,7 +57,7 @@
         <div class="row-items">
             <div class="container-box">
                 <div class="container-img">
-                    <img src="img/trip1.png" alt="ship icon" />
+                    <img src="public/img/trip1.png" alt="ship icon" />
                 </div>
                 <h4>Ship Cruises</h4>
                 <p>150 Properties</p>
@@ -65,7 +65,7 @@
 
             <div class="container-box">
                 <div class="container-img">
-                    <img src="img/trip2.png" alt="food icon" />
+                    <img src="public/img/trip2.png" alt="food icon" />
                 </div>
                 <h4>Food Tours</h4>
                 <p>150 Properties</p>
@@ -73,7 +73,7 @@
 
             <div class="container-box">
                 <div class="container-img">
-                    <img src="img/trip3.png" alt="sea and sun icon" />
+                    <img src="public/img/trip3.png" alt="sea and sun icon" />
                 </div>
                 <h4>Summer Rest</h4>
                 <p>150 Properties</p>
@@ -93,7 +93,7 @@
         <div class="package-content">
             <div class="box">
                 <div class="thum">
-                    <img src="img/img1.png" alt="tour eiffel image" />
+                    <img src="public/img/img1.png" alt="tour eiffel image" />
                     <h3>$499</h3>
                 </div>
 
@@ -114,7 +114,7 @@
 
             <div class="box">
                 <div class="thum">
-                    <img src="img/img2.png" alt="mauntain image" />
+                    <img src="public/img/img2.png" alt="mauntain image" />
                     <h3>$499</h3>
                 </div>
 
@@ -135,7 +135,7 @@
 
             <div class="box">
                 <div class="thum">
-                    <img src="img/img3.png" alt="road image" />
+                    <img src="public/img/img3.png" alt="road image" />
                     <h3>$499</h3>
                 </div>
 
@@ -167,37 +167,37 @@
 
         <div class="destination-content">
             <div class="col-content">
-                <img src="img/img-1.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-1.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-2.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-2.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-3.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-3.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-4.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-4.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-5.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-5.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-6.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-6.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
@@ -277,7 +277,7 @@
     </section>
 
     <!--link to js--->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="public/js/script.js"></script>
 </body>
 
 </html>

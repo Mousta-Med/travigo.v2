@@ -7,7 +7,7 @@
     <title>Travigo - Travel for everyone</title>
     <link rel="icon" href="./img/world.png" />
     <meta name="description" content="Explore our trips and live The Good Life with Travigo our Tours that make you fall in love with the world." />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
@@ -63,7 +63,7 @@
                 </p>
             </div>
             <div class="container-img-b">
-                <img src="img/tourism.jpg" alt="tourism image" />
+                <img src="public/img/tourism.jpg" alt="tourism image" />
             </div>
         </div>
     </section>
@@ -72,7 +72,7 @@
     <section class="container">
         <div class="row-items">
             <div class="container-img-b">
-                <img src="img/maroc.jpg" alt="morocco collection image" />
+                <img src="public/img/maroc.jpg" alt="morocco collection image" />
             </div>
             <div class="container-box">
                 <p>
@@ -105,7 +105,7 @@
 
         <div class="destination-content">
             <div class="blog-content">
-                <img src="img/img-1.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-1.jpg" alt="Machu Picchu image" />
                 <h5>Careers at trivago</h5>
                 <p>
                     Find out more about our open roles, working culture, benefits, D&I
@@ -114,7 +114,7 @@
             </div>
 
             <div class="blog-content">
-                <img src="img/img-2.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-2.jpg" alt="Machu Picchu image" />
                 <h5>Tech blog</h5>
                 <p>
                     Get insight into our projects, prototypes and tech stack from our
@@ -123,7 +123,7 @@
             </div>
 
             <div class="blog-content">
-                <img src="img/img-3.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-3.jpg" alt="Machu Picchu image" />
                 <h5>trivago blog</h5>
                 <p>
                     A central source of actionable insights into hotel marketing,
@@ -206,7 +206,7 @@
     </section>
 
     <!--link to js--->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="public/js/script.js"></script>
 </body>
 
 </html>

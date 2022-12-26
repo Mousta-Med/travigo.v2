@@ -7,7 +7,7 @@
     <title>Travigo - Travel for everyone</title>
     <link rel="icon" href="./img/world.png" />
     <meta name="description" content="Explore our trips and live The Good Life with Travigo our Tours that make you fall in love with the world." />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
@@ -91,7 +91,7 @@
         <div class="package-contentv1">
             <div class="box">
                 <div class="thum">
-                    <img src="img/paris.png" alt="paris image" />
+                    <img src="public/img/paris.png" alt="paris image" />
                     <h3>$499</h3>
                 </div>
 
@@ -112,7 +112,7 @@
 
             <div class="box">
                 <div class="thum">
-                    <img src="img/img2.png" alt="denali image" />
+                    <img src="public/img/img2.png" alt="denali image" />
                     <h3>$499</h3>
                 </div>
 
@@ -133,7 +133,7 @@
 
             <div class="box">
                 <div class="thum">
-                    <img src="img/yellowston.png" alt="yallowstone image" />
+                    <img src="public/img/yellowston.png" alt="yallowstone image" />
                     <h3>$499</h3>
                 </div>
 
@@ -157,7 +157,7 @@
         <div class="packagev2-content">
             <div class="box">
                 <div class="thumv2">
-                    <img src="img/cairo.png" alt="cairo image" />
+                    <img src="public/img/cairo.png" alt="cairo image" />
                     <h3>$499</h3>
                 </div>
 
@@ -178,7 +178,7 @@
 
             <div class="box">
                 <div class="thumv2">
-                    <img src="img/alaska.png" alt="alaska image" />
+                    <img src="public/img/alaska.png" alt="alaska image" />
                     <h3>$499</h3>
                 </div>
 
@@ -199,7 +199,7 @@
 
             <div class="box">
                 <div class="thumv2">
-                    <img src="img/dubai.png" alt="dubai image" />
+                    <img src="public/img/dubai.png" alt="dubai image" />
                     <h3>$499</h3>
                 </div>
 
@@ -231,37 +231,37 @@
 
         <div class="destination-content">
             <div class="col-content">
-                <img src="img/venice.png" alt="venice iamge" />
+                <img src="public/img/venice.png" alt="venice iamge" />
                 <h5>Venice</h5>
                 <p>ITALY</p>
             </div>
 
             <div class="col-content">
-                <img src="img/maldive.png" alt="maldive image" />
+                <img src="public/img/maldive.png" alt="maldive image" />
                 <h5>Maldive</h5>
                 <p>MALDIVE</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-3.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-3.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-4.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-4.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-5.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-5.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
 
             <div class="col-content">
-                <img src="img/img-2.jpg" alt="Machu Picchu image" />
+                <img src="public/img/img-2.jpg" alt="Machu Picchu image" />
                 <h5>Machu Picchu</h5>
                 <p>PERU</p>
             </div>
@@ -341,7 +341,7 @@
     </section>
 
     <!--link to js--->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="public/js/script.js"></script>
 </body>
 
 </html>

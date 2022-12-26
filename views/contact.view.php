@@ -7,7 +7,7 @@
     <title>Travigo - Travel for everyone</title>
     <link rel="icon" href="./img/world.png" />
     <meta name="description" content="Explore our trips and live The Good Life with Travigo our Tours that make you fall in love with the world." />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
@@ -154,7 +154,7 @@
     </section>
 
     <!--link to js--->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="public/js/script.js"></script>
 </body>
 
 </html>

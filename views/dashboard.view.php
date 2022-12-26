@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
-    header("location: ./views/login.view.php?login=you must login");
+    header("location: login?login=you must login");
 }
 ?>
 <!doctype html>

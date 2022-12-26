@@ -19,7 +19,7 @@ if (isset($_GET['logout'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link href="../css/style.css" rel="stylesheet" />
+    <link href="public/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 </head>
 
@@ -30,7 +30,7 @@ if (isset($_GET['logout'])) {
                 <div class="col-md-7 col-lg-5">
                     <div class="login-wrap p-4 p-md-5">
                         <h3 class="text-center mb-4">Sign In</h3>
-                        <form action="../login" method="POST" class="login-form">
+                        <form action="checklogin" method="POST" class="login-form">
                             <div class="form-group">
                                 <input type="text" class="form-control rounded-left" placeholder="Username" name="username" required>
                             </div>

@@ -26,7 +26,7 @@ class tourscontroller
     {
         session_start();
         if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
-            header("location: ../views/login.view.php?login=you must login");
+            header("location: ../../login?login=you must login");
         } else {
             $this->admin = new admin;
             $sql =  $this->admin->showtoursid($id);
@@ -89,7 +89,7 @@ class tourscontroller
         session_start();
         if (isset($_POST['username']) && isset($_POST['password'])) {
             $username = htmlspecialchars(trim(strtolower($_POST['username'])));
-            $password = $_POST['password'];
+            $password = sha1($_POST['password']);
             $sql = "SELECT * FROM admin WHERE admin_username = '$username' AND admin_password = '$password'";
             $result = mysqli_query($conn, $sql);
             if (mysqli_num_rows($result) > 0) {
@@ -97,7 +97,7 @@ class tourscontroller
                 $_SESSION['password'] = $password;
                 header("Location: dashboard");
             } else {
-                header("location: views/login.php?error=username or password incorrect");
+                header("location: login?error=username or password incorrect");
             }
         }
     }
