@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Travigo - Travel for everyone</title>
-    <link rel="icon" href="./img/world.png" />
+    <link rel="icon" href="public/img/world.png" />
     <meta name="description" content="Explore our trips and live The Good Life with Travigo our Tours that make you fall in love with the world." />
     <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 

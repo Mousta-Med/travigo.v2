@@ -39,7 +39,7 @@ class tourscontroller
         $tourdesc = $_POST['description'];
         $tourimage = $_FILES['image']['name'];
         $oldpath = $_FILES['image']['tmp_name'];
-        $newpath = "img/" . $tourimage;
+        $newpath = "public/img/" . $tourimage;
         move_uploaded_file($oldpath, $newpath);
 
         $this->admin = new admin;
@@ -57,7 +57,7 @@ class tourscontroller
         $tourdesc = $_POST['description'];
         $tourimage = $_FILES['image']['name'];
         $oldpath = $_FILES['image']['tmp_name'];
-        $newpath = "img/" . $tourimage;
+        $newpath = "public/img/" . $tourimage;
         move_uploaded_file($oldpath, $newpath);
         $admin = new admin;
         $requet = $admin->updatetour($tourplace, $tourdesc, $tourimage, $id);
@@ -97,7 +97,7 @@ class tourscontroller
                 $_SESSION['password'] = $password;
                 header("Location: dashboard");
             } else {
-                header("location: login?error=username or password incorrect");
+                header("location: views/login.view.php?error=username or password incorrect");
             }
         }
     }

@@ -44,11 +44,13 @@ if (empty($_GET['page'])) {
             require "views/about.view.php";
             break;
         case "tours":
+            $admin  = new admin;
+            $sql = $admin->showtours();
             require "views/tours.view.php";
             break;
-        case "login":
-            require "views/login.view.php";
-            break;
+            // case "login":
+            //     require "views/login.view.php";
+            //     break;
         case "checklogin":
             $tourscontrolller->checklogin();
             break;

@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
-    header("location: login?login=you must login");
+    header("location: views/login.view.php?login=you must login");
 }
 ?>
 <!doctype html>
@@ -44,7 +44,7 @@ if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
                                         <td><?= $tours['id'] ?></td>
                                         <td><?= $tours['tour_place'] ?></td>
                                         <td><?= $tours['tour_description'] ?></td>
-                                        <td><img src="./public/img/<?= $tours['tour_image'] ?>" width="50" height="50" style="border-radius:5px;"></td>
+                                        <td><img src="public/img/<?= $tours['tour_image'] ?>" width="50" height="50" style="border-radius:5px;"></td>
                                         <td>
                                             <a href="dashboard/update/<?= $tours['id'] ?>" class="btn btn-success btn-sm">Edit</a>
                                             <a href="dashboard/delete/<?= $tours['id'] ?>" class="btn btn-danger btn-sm">Delete</a>

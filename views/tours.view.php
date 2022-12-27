@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Travigo - Travel for everyone</title>
-    <link rel="icon" href="./img/world.png" />
+    <link rel="icon" href="public/img/world.png" />
     <meta name="description" content="Explore our trips and live The Good Life with Travigo our Tours that make you fall in love with the world." />
     <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 
@@ -87,143 +87,35 @@
         <div class="title">
             <h2>Our Tours</h2>
         </div>
-
         <div class="package-contentv1">
-            <div class="box">
-                <div class="thum">
-                    <img src="public/img/paris.png" alt="paris image" />
-                    <h3>$499</h3>
-                </div>
-
-                <div class="dest-content">
-                    <div class="location">
-                        <h4>paris</h4>
-                        <p>4h - 5h</p>
+            <?php
+            while ($tours = mysqli_fetch_assoc($sql)) { ?>
+                <div class="box">
+                    <div class="thum">
+                        <img src="public/img/<?= $tours['tour_image'] ?>" alt="paris image" />
+                        <h3>$499</h3>
                     </div>
-                    <div class="stars">
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="thum">
-                    <img src="public/img/img2.png" alt="denali image" />
-                    <h3>$499</h3>
-                </div>
-
-                <div class="dest-content">
-                    <div class="location">
-                        <h4>Denali</h4>
-                        <p>4h - 5h</p>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
+                    <div class="dest-content">
+                        <div class="location">
+                            <h4><?= $tours['tour_place'] ?></h4>
+                            <p><?= $tours['tour_description'] ?></p>
+                        </div>
+                        <div class="stars">
+                            <a href="#"><i class="bx bxs-star"></i></a>
+                            <a href="#"><i class="bx bxs-star"></i></a>
+                            <a href="#"><i class="bx bxs-star"></i></a>
+                            <a href="#"><i class="bx bxs-star"></i></a>
+                            <a href="#"><i class="bx bxs-star"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="box">
-                <div class="thum">
-                    <img src="public/img/yellowston.png" alt="yallowstone image" />
-                    <h3>$499</h3>
-                </div>
-
-                <div class="dest-content">
-                    <div class="location">
-                        <h4>YellowStone</h4>
-                        <p>4h - 5h</p>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </section>
-    <section class="packagev2" id="package">
-        <div class="packagev2-content">
-            <div class="box">
-                <div class="thumv2">
-                    <img src="public/img/cairo.png" alt="cairo image" />
-                    <h3>$499</h3>
-                </div>
-
-                <div class="dest-content">
-                    <div class="location">
-                        <h4>cairo</h4>
-                        <p>4h - 5h</p>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="thumv2">
-                    <img src="public/img/alaska.png" alt="alaska image" />
-                    <h3>$499</h3>
-                </div>
-
-                <div class="dest-content">
-                    <div class="location">
-                        <h4>Alaska</h4>
-                        <p>4h - 5h</p>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="thumv2">
-                    <img src="public/img/dubai.png" alt="dubai image" />
-                    <h3>$499</h3>
-                </div>
-
-                <div class="dest-content">
-                    <div class="location">
-                        <h4>Dubai</h4>
-                        <p>4h - 5h</p>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                        <a href="#"><i class="bx bxs-star"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!--destination section--->
     <section class="destination" id="destination">
         <div class="title">
-            <h2>
+            <h2 style="margin-top: 100px;">
                 Our Most Popular <br />
                 Destination!
             </h2>
