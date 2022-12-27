@@ -15,7 +15,7 @@ if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
 </head>
 
 <body>
-    <a href="views/login.view.php?logout=1" type="button" class="btn btn-danger">Log out</a>
+    <a href="../views/login.view.php?logout=1" type="button" class="btn btn-danger">Log out</a>
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-12">
