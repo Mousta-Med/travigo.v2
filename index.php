@@ -22,7 +22,7 @@ if (empty($_GET['page'])) {
             } else if ($URL[1] === "update") {
                 $id = $URL[2];
                 if (filter_var($id, FILTER_VALIDATE_INT) === false) {
-                    throw new Exception("This page are not exist !!!");
+                    require "views/404.view.php";
                 } else {
                     $tourscontrolller->updateform($id);
                 }
@@ -33,7 +33,7 @@ if (empty($_GET['page'])) {
                 $id = $URL[2];
                 $tourscontrolller->delete($id);
             } else {
-                throw new Exception("This page are not exist !!!");
+                require "views/404.view.php";
             }
             break;
         case "home":
@@ -50,13 +50,11 @@ if (empty($_GET['page'])) {
             $sql = $admin->showtours();
             require "views/tours.view.php";
             break;
-            // case "login":
-            //     require "views/login.view.php";
-            //     break;
         case "checklogin":
             $tourscontrolller->checklogin();
             break;
         default:
-            throw new Exception("This page are not exist !!!");
+            require "views/404.view.php";
+            break;
     }
 }
