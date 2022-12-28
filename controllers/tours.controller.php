@@ -26,7 +26,7 @@ class tourscontroller
     {
         session_start();
         if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
-            header("location: ../../login?login=you must login");
+            header("location: ../../views/login.view.php?login=you must login");
         } else {
             $this->admin = new admin;
             $sql =  $this->admin->showtoursid($id);
