@@ -1,6 +1,6 @@
 <?php
-require_once "./models/admin.class.php";
-require_once "./models/db.class.php";
+require_once "models/admin.class.php";
+require_once "models/db.class.php";
 
 class tourscontroller
 
@@ -11,7 +11,7 @@ class tourscontroller
     {
         $this->admin = new admin;
         $sql = $this->admin->showtours();
-        require "./views/dashboard.view.php";
+        require "views/dashboard.view.php";
     }
     public function addform()
     {
@@ -19,7 +19,7 @@ class tourscontroller
         if (!isset($_SESSION['name']) && !isset($_SESSION['password'])) {
             header("location: ../views/login.view.php?login=you must login");
         } else {
-            require "./views/add.view.php";
+            require "views/add.view.php";
         }
     }
     public function updateform($id)

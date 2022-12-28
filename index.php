@@ -4,6 +4,8 @@ require_once "controllers/tours.controller.php";
 $tourscontrolller = new tourscontroller;
 
 if (empty($_GET['page'])) {
+    $admin  = new admin;
+    $sql = $admin->showtours();
     require "views/tours.view.php";
 } else {
     $page = rtrim($_GET['page'], '/');
